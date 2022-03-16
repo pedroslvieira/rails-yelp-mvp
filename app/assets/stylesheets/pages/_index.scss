@@ -1,0 +1,9 @@
+// Import page-specific CSS files here.
+@import "home";
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
